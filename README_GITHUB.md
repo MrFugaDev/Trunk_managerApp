@@ -20,7 +20,7 @@ Módulo profesional para FreePBX que permite la gestión automática de trunks S
 
 ```bash
 # Instalación en 3 comandos
-wget https://raw.githubusercontent.com/UnCarnaval/addtrunkapi-module/main/install-sangoma7.sh
+wget https://raw.githubusercontent.com/MrFugaDev/Trunk_managerApp/main/install-sangoma7.sh
 chmod +x install-sangoma7.sh
 sudo ./install-sangoma7.sh
 ```
@@ -29,7 +29,7 @@ sudo ./install-sangoma7.sh
 
 ```bash
 # Si tienes problemas o instalación anterior
-wget https://raw.githubusercontent.com/UnCarnaval/addtrunkapi-module/main/install-complete.sh
+wget https://raw.githubusercontent.com/MrFugaDev/Trunk_managerApp/main/install-complete.sh
 chmod +x install-complete.sh
 sudo ./install-complete.sh
 ```
@@ -38,7 +38,7 @@ sudo ./install-complete.sh
 ### Opción 3: Desde GitHub
 ```bash
 # Clonar repositorio
-git clone https://github.com/UnCarnaval/addtrunkapi-module.git
+git clone https://github.com/MrFugaDev/Trunk_managerApp.git
 cd addtrunkapi-module
 
 # Crear paquete e instalar
@@ -133,13 +133,13 @@ Este proyecto está licenciado bajo GPL v3 - ver [LICENSE](LICENSE) para más de
 
 ## 🆘 Soporte
 
-- **Issues:** [GitHub Issues](https://github.com/UnCarnaval/addtrunkapi-module/issues)
-- **Documentación:** [Wiki del Proyecto](https://github.com/UnCarnaval/addtrunkapi-module/wiki)
+- **Issues:** [GitHub Issues](https://github.com/MrFugaDev/Trunk_managerApp/issues)
+- **Documentación:** [Wiki del Proyecto](https://github.com/MrFugaDev/Trunk_managerApp/wiki)
 - **Email:** soporte@tudominio.com
 
 ## 📊 Estado del Proyecto
 
-![CI](https://github.com/UnCarnaval/addtrunkapi-module/workflows/Build%20and%20Test%20Trunk%20Manager%20Module/badge.svg)
+![CI](https://github.com/MrFugaDev/Trunk_managerApp/workflows/Build%20and%20Test%20Trunk%20Manager%20Module/badge.svg)
 ![License](https://img.shields.io/badge/license-GPL%20v3-blue.svg)
 ![Node](https://img.shields.io/badge/node-%3E%3D12.x-green.svg)
 ![FreePBX](https://img.shields.io/badge/FreePBX-%3E%3D13.0.0-orange.svg)

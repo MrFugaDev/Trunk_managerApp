@@ -38,7 +38,7 @@ print_header
 # Configuración
 API_DIR="/opt/trunkmanager-api"
 EXAMPLES_DIR="$API_DIR/examples"
-GITHUB_URL="https://github.com/UnCarnaval/addtrunkapi-module/archive/refs/heads/main.zip"
+GITHUB_URL="https://github.com/MrFugaDev/Trunk_managerApp/archive/refs/heads/main.zip"
 TEMP_DIR="/tmp/trunkmanager-install"
 
 print_message "Instalando Trunk Manager API..."
@@ -52,7 +52,7 @@ cd "$TEMP_DIR"
 # Descargar API
 wget -O trunkmanager.zip "$GITHUB_URL"
 unzip trunkmanager.zip
-cd addtrunkapi-module-main
+cd Trunk_managerApp-main
 
 # Crear directorios
 print_message "Creando estructura de directorios..."

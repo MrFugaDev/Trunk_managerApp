@@ -5,7 +5,7 @@
 ### **🎯 Método 1: Descarga Directa desde GitHub (Recomendado)**
 
 #### **Opción A: Descargar ZIP desde GitHub**
-1. **Ir a:** https://github.com/UnCarnaval/addtrunkapi-module
+1. **Ir a:** https://github.com/MrFugaDev/Trunk_managerApp
 2. **Hacer clic en:** "Code" → "Download ZIP"
 3. **Subir archivo** a tu servidor Sangoma 7
 4. **Extraer** en `/var/www/html/admin/modules/`
@@ -14,14 +14,14 @@
 ```bash
 # Descargar directamente
 cd /tmp
-wget https://github.com/UnCarnaval/addtrunkapi-module/archive/refs/heads/main.zip
+wget https://github.com/MrFugaDev/Trunk_managerApp/archive/refs/heads/main.zip
 
 # O con curl
-curl -L https://github.com/UnCarnaval/addtrunkapi-module/archive/refs/heads/main.zip -o trunkmanager.zip
+curl -L https://github.com/MrFugaDev/Trunk_managerApp/archive/refs/heads/main.zip -o trunkmanager.zip
 
 # Extraer
 unzip main.zip
-mv addtrunkapi-module-main trunkmanager
+mv Trunk_managerApp-main trunkmanager
 ```
 
 ### **🎯 Método 2: Instalación desde FreePBX Web**
@@ -130,7 +130,7 @@ systemctl start trunkmanager-api
 ```bash
 # Descargar release v1.0.0
 cd /tmp
-wget https://github.com/UnCarnaval/addtrunkapi-module/archive/refs/tags/v1.0.0.zip
+wget https://github.com/MrFugaDev/Trunk_managerApp/archive/refs/tags/v1.0.0.zip
 
 # Extraer
 unzip v1.0.0.zip
@@ -157,10 +157,10 @@ mkdir -p /var/www/html/admin/modules/trunkmanager
 if command -v wget &> /dev/null; then
     echo "Descargando desde GitHub..."
     cd /tmp
-    wget https://github.com/UnCarnaval/addtrunkapi-module/archive/refs/heads/main.zip
+    wget https://github.com/MrFugaDev/Trunk_managerApp/archive/refs/heads/main.zip
     unzip main.zip
-    mv addtrunkapi-module-main/* /var/www/html/admin/modules/trunkmanager/
-    rm -rf addtrunkapi-module-main main.zip
+    mv Trunk_managerApp-main/* /var/www/html/admin/modules/trunkmanager/
+    rm -rf Trunk_managerApp-main main.zip
 else
     echo "wget no disponible. Instalación manual requerida."
     exit 1

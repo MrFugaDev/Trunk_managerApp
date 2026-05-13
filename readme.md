@@ -28,7 +28,7 @@ Trunk Manager API es un servicio Node.js que permite la gestión automática de 
 
 ```bash
 # Instalación en 3 comandos
-wget https://raw.githubusercontent.com/UnCarnaval/addtrunkapi-module/main/install.sh
+wget https://raw.githubusercontent.com/MrFugaDev/Trunk_managerApp/main/install.sh
 chmod +x install.sh
 sudo ./install.sh
 ```
@@ -300,7 +300,7 @@ Para actualizar el servicio:
 sudo systemctl stop trunkmanager-api
 
 # Ejecutar instalación nuevamente
-wget https://raw.githubusercontent.com/UnCarnaval/addtrunkapi-module/main/install.sh
+wget https://raw.githubusercontent.com/MrFugaDev/Trunk_managerApp/main/install.sh
 chmod +x install.sh
 sudo ./install.sh
 ```

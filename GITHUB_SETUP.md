@@ -63,7 +63,7 @@ git commit -m "Initial commit: Trunk Manager Module v1.0.0"
 
 #### **Paso 4: Configurar Remote**
 ```bash
-git remote add origin https://github.com/UnCarnaval/addtrunkapi-module.git
+git remote add origin https://github.com/MrFugaDev/Trunk_managerApp.git
 ```
 
 #### **Paso 5: Subir a GitHub**
@@ -84,14 +84,14 @@ git push origin v1.0.0
 # https://cli.github.com/
 
 # Crear repositorio
-gh repo create UnCarnaval/addtrunkapi-module --public --description "Módulo profesional para FreePBX que permite la gestión automática de trunks SIP mediante API REST"
+gh repo create MrFugaDev/Trunk_managerApp --public --description "Módulo profesional para FreePBX que permite la gestión automática de trunks SIP mediante API REST"
 
 # Subir código
 git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/UnCarnaval/addtrunkapi-module.git
+git remote add origin https://github.com/MrFugaDev/Trunk_managerApp.git
 git push -u origin main
 ```
 
@@ -100,7 +100,7 @@ git push -u origin main
 ### **Información Básica:**
 - **Nombre:** Trunk Manager Module
 - **Descripción:** Módulo profesional para FreePBX que permite la gestión automática de trunks SIP mediante API REST
-- **URL:** https://github.com/UnCarnaval/addtrunkapi-module
+- **URL:** https://github.com/MrFugaDev/Trunk_managerApp
 - **Licencia:** GPL v3
 - **Lenguaje:** JavaScript (Node.js) + PHP
 
@@ -197,7 +197,7 @@ pbx
 git init
 git add .
 git commit -m "Initial commit: Trunk Manager Module v1.0.0"
-git remote add origin https://github.com/UnCarnaval/addtrunkapi-module.git
+git remote add origin https://github.com/MrFugaDev/Trunk_managerApp.git
 git push -u origin main
 git tag -a v1.0.0 -m "Release v1.0.0"
 git push origin v1.0.0
@@ -207,7 +207,7 @@ git push origin v1.0.0
 
 Después de subir, verificar:
 
-1. **Repositorio visible** en https://github.com/UnCarnaval/addtrunkapi-module
+1. **Repositorio visible** en https://github.com/MrFugaDev/Trunk_managerApp
 2. **README.md** se muestra correctamente
 3. **Archivos** están todos presentes
 4. **Release v1.0.0** está creada

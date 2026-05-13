@@ -4,7 +4,7 @@
 
 **Nombre:** Trunk Manager Module  
 **Descripción:** Módulo profesional para FreePBX que permite la gestión automática de trunks SIP mediante API REST  
-**URL:** https://github.com/UnCarnaval/addtrunkapi-module  
+**URL:** https://github.com/MrFugaDev/Trunk_managerApp  
 **Licencia:** GPL v3  
 **Lenguaje principal:** JavaScript (Node.js) + PHP  
 

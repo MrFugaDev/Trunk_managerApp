@@ -9,7 +9,7 @@ Como Sangoma 7 no permite instalar Git fácilmente, he creado métodos alternati
 ### **Descargar y Ejecutar Script**
 ```bash
 # Descargar script de instalación
-wget https://raw.githubusercontent.com/UnCarnaval/addtrunkapi-module/main/install-sangoma7.sh
+wget https://raw.githubusercontent.com/MrFugaDev/Trunk_managerApp/main/install-sangoma7.sh
 
 # Hacer ejecutable
 chmod +x install-sangoma7.sh
@@ -31,11 +31,11 @@ sudo ./install-sangoma7.sh
 ```bash
 # Descargar archivo ZIP
 cd /tmp
-wget https://github.com/UnCarnaval/addtrunkapi-module/archive/refs/heads/main.zip
+wget https://github.com/MrFugaDev/Trunk_managerApp/archive/refs/heads/main.zip
 
 # Extraer
 unzip main.zip
-mv addtrunkapi-module-main trunkmanager
+mv Trunk_managerApp-main trunkmanager
 ```
 
 ### **Paso 2: Instalar Manualmente**
@@ -191,7 +191,7 @@ sudo systemctl restart trunkmanager-api
 
 ### **Instalación Automática:**
 ```bash
-wget https://raw.githubusercontent.com/UnCarnaval/addtrunkapi-module/main/install-sangoma7.sh
+wget https://raw.githubusercontent.com/MrFugaDev/Trunk_managerApp/main/install-sangoma7.sh
 chmod +x install-sangoma7.sh
 sudo ./install-sangoma7.sh
 ```
