@@ -72,7 +72,8 @@ app.post('/add-trunk', (req, res) => {
     }
 
     const trunkSample = getConfig(trunkConfig);
-    const trunkComplete = changeVars(trunkSample, {name: trunkName, username, password, server});
+    const baseName = trunkName.includes('_') ? trunkName.split('_').slice(1).join('_') : trunkName;
+    const trunkComplete = changeVars(trunkSample, {name: baseName, username, password, server});
 
     fs.writeFile(filePath, trunkComplete, (err) => {
         if (err) {
