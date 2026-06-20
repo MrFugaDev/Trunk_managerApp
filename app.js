@@ -20,7 +20,8 @@ const detectProviderType = (server) => {
         'plivo': ['plivo.com', 'sip.plivo.com'],
         'signalwire': ['signalwire.com', 'sip.signalwire.com'],
         'telnyx': ['telnyx.com', 'sip.telnyx.com'],
-        'vonage': ['vonage.com', 'sip.vonage.com', 'nexmo.com']
+        'vonage': ['vonage.com', 'sip.vonage.com', 'nexmo.com'],
+        'zadarma': ['zadarma.com', 'sip.zadarma.com']
     };
     
     // Buscar coincidencias en los dominios
